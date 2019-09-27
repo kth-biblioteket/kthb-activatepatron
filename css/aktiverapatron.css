@@ -1,0 +1,182 @@
+body {
+	margin-top: 0px;	
+}
+
+.content {
+	padding: 0px 0px;
+}
+.article {
+	padding: 0px 38px 0px 38px;
+}
+
+.extras {
+	position: initial;
+	overflow: auto;
+	padding: 0px 38px 0px 38px;
+	display: block !important;
+}
+.bib_label {
+	display : inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+
+.formarea_noedit{
+border-radius: 10px; 
+-moz-border-radius: 10px; 
+-webkit-border-radius: 10px; 
+border: 1px solid #B9BBBD;
+box-shadow: inset 1px 1px 2px #b9bbbd;
+padding: 10px 10px 10px 10px; 
+background-color: #ffffff;
+}
+
+.bib_radio_block {
+	border:1px;
+	padding: 5px 5px;
+	margin: 5px 0px; 
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px; 
+	border: 1px solid #B9BBBD;
+	background-color: #ffffff;
+}
+
+:checked + label { 
+	font-weight:bold;
+}
+
+input:hover + label { 
+	font-weight:bold;
+}
+
+.error{
+	border-color: #f00 !important;
+}
+
+label.error{
+	display : none !important;	
+}
+
+input[type=radio].error{
+	-moz-box-shadow: 0 0 1px 1px #f00!important;
+	-webkit-box-shadow: 0 0 1px 1px #f00!important;
+	box-shadow: 0 0 1px 1px #f00!important;
+}
+
+input[type=checkbox].error{
+	-moz-box-shadow: 0 0 1px 1px #f00!important;
+	-webkit-box-shadow: 0 0 1px 1px #f00!important;
+	box-shadow: 0 0 1px 1px #f00!important;
+}
+
+input[type="button"] {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #ffffff;
+    background-color: #b0c92b !important; /* motverka hover visited från KTH-css */
+    min-width: 60px;
+    font-weight: bold;
+    height: 25px;
+    border: 0px;
+}
+	
+#message { 
+    padding: 5px;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#message:focus { 
+    outline: none;
+}
+
+.placeholder { 
+	color: #aaa; 
+}
+
+/*
+#myModal {
+	margin: 20px 38px 20px 38px;
+	padding: 10px 0px;
+}
+*/
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(204, 201, 201, 0.6);
+}
+
+.modal-content {
+	margin: 15% auto;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+}
+
+.modalclose {
+	margin-top: 10px;
+}
+
+#loadingmessage img {
+	display: none;
+	width: 100px;
+}
+
+#id, #idlabel, #almapin, #willing, #skicka, #userinfo, .almabook, .almaarticle, .almabookchapter {
+	display: none;
+}
+
+#skicka {
+	background-color: grey;
+	cursor: default;
+}
+
+#id {
+	width: 300px;
+}
+
+ #activepatron {
+	margin-top: 10px;
+	padding: 10px 0px;
+	display: none;
+}
+
+/*Info till användare som redan är aktiverad*/
+#activepatroninfo {
+	margin-top: 10px;
+	/*padding: 10px 0px;*/
+	display: none;
+}
+
+.activatedtext {
+	margin-top: 10px;
+	/*padding: 10px 0px;*/
+	display: none;
+}
+
+/*Info till användare som just aktiverat sig*/
+.activationtext {
+	margin-top: 10px;
+	/*padding: 10px 0px;*/
+	display: none;
+}
+
+#userinfo, #almapin, #willing {
+	padding: 5px 0px;
+}
+
+#almapinnumber {
+	width: 100px;
+}
