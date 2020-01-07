@@ -44,7 +44,15 @@ if (!empty($_GET["language"])) {
 		//echo $_REQUEST['internaluser'];
 		header("location: aktiverapatron_aj.php?auth=alma") ;
 	} else {
-	if(!isset($_SESSION['kth_id']))  //EXTERN KTH-User
+	//logout
+	if (isset($_REQUEST['logout'])) {
+		session_unset();
+		session_destroy();
+		header("location: https://login.kth.se/logout");
+		exit;
+	}
+
+	if(!isset($_SESSION['kth_id']))  //EXTERN KTH-User logga in via KTH-CAS
 		{
 			header("location: login.php?language=" . $language) ;
 		} else {
@@ -52,10 +60,6 @@ if (!empty($_GET["language"])) {
 		}
 	}
 	if(isset($_SESSION['kth_id'])) {
-    //logout
-    if (isset($_REQUEST['logout'])) {
-      header("location: login.php?logout=true") ;
-    }
 ?>	
 	<?php 
 		if ($language == "swedish") {
