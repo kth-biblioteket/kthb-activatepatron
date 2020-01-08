@@ -1,7 +1,7 @@
 <?php
 
 $_SERVER['HTTP_X_FORWARDED_HOST'] = $_SERVER['HTTP_HOST'];
-$_SERVER['REQUEST_URI']="/aktiverapatron/login.php";
+$_SERVER['REQUEST_URI']="/activatepatron/login.php";
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/CAS/CAS.php';
 
@@ -18,6 +18,6 @@ if($casUser) {
 	}
 	$_SESSION['kth_id']  	= $casUser ;
 	$userid 				= $_SESSION['kth_id']  ;
-	header("location: aktiverapatron.php") ;
+	header("location: ./") ;
 }
 ?>

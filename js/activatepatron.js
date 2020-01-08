@@ -11,7 +11,7 @@ function ajaxinituser(language) {
 	$('.activationtext').hide();
 	$('#myModal').show();
 	$.ajax({                                      
-			url: 'aktiverapatron_aj.php',                  
+			url: 'activatepatron_aj.php',                  
 			data: { getuserid: 1, language: language } ,
 			dataType: 'json',
 			type: 'post',
@@ -139,7 +139,7 @@ function logoutfromsaml() {
 			dataType: 'json',
 			type: 'post',
 			success: function(output){
-				window.location.href = "aktiverapatron.php";
+				window.location.href = "./";
 			},
 			error: function(ajaxContext){
 				$('#loadingmessage img').hide();
@@ -173,7 +173,7 @@ function sendrequest() {
 		} else {
 			$('#almaid').val($('#id').val())
 		}
-		ajaxRequest('aktiverapatron_aj.php');
+		ajaxRequest('activatepatron_aj.php');
 	}
 }
 

@@ -315,7 +315,7 @@ Huvudkod (som körs om användarID skickats från formuläret)
 **********/
 if(!empty($_REQUEST['auth'])) {
 	?>
-	<form id="loginuserform" action="aktiverapatron_aj.php?auth=alma" method="post">
+	<form id="loginuserform" action="activatepatron_aj.php?auth=alma" method="post">
 		<div>
 			Username
 		</div>
@@ -348,9 +348,9 @@ if(!empty($_REQUEST['auth'])) {
 			session_start() ;
 			$_SESSION['kth_id']  	= $jsonalmaresponse->primaryid;
 			$userid 				= $_SESSION['kth_id'] ;
-			header("location: aktiverapatron.php" );
+			header("location: activatepatron.php" );
 		} else {
-			header("location: aktiverapatron_aj.php?auth=alma" );
+			header("location: activatepatron_aj.php?auth=alma" );
 		}
 	}
 } else {
