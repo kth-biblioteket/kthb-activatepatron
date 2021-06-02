@@ -65,7 +65,7 @@ try {
 	$oidc->setVerifyPeer(false);
 
 	//redirect tillbaks till denna sida!
-    $oidc->setRedirectURL(html_entity_decode("https://" . $_SERVER['HTTP_HOST'] . "/login.php?"));
+    $oidc->setRedirectURL(html_entity_decode("https://" . $_SERVER['HTTP_HOST'] . "/activatepatron/login.php?"));
 	
 	//Skickar vidare till login på KTH om användaren inte redan är inloggad
 	$oidc->authenticate();
