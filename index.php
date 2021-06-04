@@ -48,7 +48,7 @@ if (!empty($_GET["language"])) {
 	if (isset($_REQUEST['logout'])) {
 		session_unset();
 		session_destroy();
-		header("location: https://login.kth.se/logout");
+		header("location: $kth_auth_endpoint/oauth2/logout");
 		exit;
 	}
 
