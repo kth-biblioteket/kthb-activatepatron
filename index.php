@@ -267,7 +267,7 @@ if (!empty($_GET["language"])) {
 							?>
 							<div class="preArticleParagraphs">
 								<div class="">
-									<p>Är du inte student eller anställd på KTH? <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/logga-in/registrera-dig-1.869092">Registrera dig.</a></p>
+									<p>Är du inte student eller anställd på KTH? <a href="https://www.kth.se/biblioteket/anvanda-biblioteket/registrera-dig-1.869092">Registrera dig.</a></p>
 								</div>
 							</div>
 							<?php 
@@ -275,7 +275,7 @@ if (!empty($_GET["language"])) {
 							?>
 							<div class="preArticleParagraphs">
 								<div class="">
-									<p>Not a student or staff member at KTH? <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/logga-in/registrera-dig-1.869092">Register here.</a></p>
+									<p>Not a student or staff member at KTH? <a href="https://www.kth.se/en/biblioteket/anvanda-biblioteket/registrera-dig-1.869092">Register here.</a></p>
 								</div>
 							</div>
 							<?php 
