@@ -475,16 +475,13 @@ if(!empty($_REQUEST['auth'])) {
 																<div><a href=\"https://www.kth.se/kthb/sokverktyg/databaser-och-soktjanster-1.546373\">Våra databaser och söktjänster</a></div>
 																</br>
 																<div>KTH Biblioteket finns på tre platser, Huvudbiblioteket på KTH Campus samt i Kista och Södertälje.</div>
-																<div><a href=\"https://www.kth.se/kthb/besok-och-kontakt/kontakta/oppettider-1.508479\">Se våra öppettider</a></div>
+																<div><a href=\"https://www.kth.se/en/biblioteket/anvanda-biblioteket/oppettider-kontakt\">Se våra öppettider</a></div>
 																</br>
 																<div>På biblioteken finns gott om studieplatser, såväl tysta läsplatser som datorer och utrymmen där man får sitta och prata. Du kan även boka något av våra grupprum.</div>
-																<div><a href=\"https://www.kth.se/kthb/besok-och-kontakt/resurser/boka-grupprum-1.535133\">Boka grupprum</a></div>
-																</br>
-																<div>I lånediskarna finns kunnig och utbildad personal som mer än gärna hjälper dig att hitta vägar till det material du söker. Du kan även kontakta oss via mejl eller per telefon.</div>
-																<div><a href=\"https://www.kth.se/kthb/besok-och-kontakt/kontakta/fraga-oss-1.546631\">Kontakta oss!</a></div>
+																<div><a href=\"https://www.kth.se/en/biblioteket/anvanda-biblioteket/studera-i-biblioteket-1.953572\">Boka grupprum</a></div>
 																</br>
 																<div>Ska du skriva ett arbete och behöver vägledning i informationssökning, databaser, referenshantering eller publiceringsfrågor?</div>
-																<div><a href=\"https://www.kth.se/kthb/aktiviteter-och-stod/stod/handledning-i-inform\">Boka handledning</a></div>";
+																<div><a href=\"https://www.kth.se/en/biblioteket/soka-vardera/boka-handledning-1.853064\">Boka handledning</a></div>";
 												$mailmessage .= "</div>";
 											}
 										} else {
@@ -509,19 +506,16 @@ if(!empty($_REQUEST['auth'])) {
 																<p>You can now borrow or request books, article copies and interlibrary loans. Please bring your ID or library card if you want to borrow materials from the library. You can collect your library card at the information desk if you show your ID.</p>
 																<div>You can search our printed and electronic materials in Primo or in one of our databases or search tools. If you log in to your KTH account you can access our electronic resources outside of campus.</div>
 																<div><a href=\"https://kth-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=46KTH_VU1&lang=en_US\">Search in Primo</a></div>
-																<div><a href=\"https://www.kth.se/en/kthb/sokverktyg/databaser-och-soktjanster-1.546373\">Databases and search tools</a></div>
+																<div><a href=\"https://www.kth.se/en/biblioteket/sokverktyg/databaser-och-soktjanster-1.546373\">Databases and search tools</a></div>
 																</br>
 																<div>KTH Library consists of three libraries, the Main library and the branch libraries in Kista and Södertälje.</div>
-																<div><a href=\"https://www.kth.se/en/kthb/besok-och-kontakt/kontakta/oppettider-1.508479\">See our opening hours</a></div>
+																<div><a href=\"https://www.kth.se/en/biblioteket/anvanda-biblioteket/oppettider-kontakt\">See our opening hours</a></div>
 																</br>
 																<div>In the library you’ll find plenty of study spaces, both quiet study areas as well as computers and spaces where talking is allowed. You can also book a group study room.</div>
-																<div><a href=\"https://www.kth.se/en/kthb/besok-och-kontakt/resurser/boka-grupprum-1.535133\">Book a group study room</a></div>
-																</br>
-																<div>At the circulation desk you can get help from the professional staff to find methods to search for the information you are looking for. You can also contact us via email or phone.</div>
-																<div><a href=\"https://www.kth.se/en/kthb/besok-och-kontakt/kontakta/fraga-oss-1.546631\">Contact us!</a></div>
+																<div><a href=\"https://www.kth.se/en/biblioteket/anvanda-biblioteket/studera-i-biblioteket-1.953572\">Book a group study room</a></div>
 																</br>
 																<div>Are you writing a paper and need guidance in information retrieval, databases, reference management or questions related to publishing?</div>
-																<div><a href=\"https://www.kth.se/en/kthb/aktiviteter-och-stod/stod/handledning-i-inform\">Book a tutorial</a></div>";
+																<div><a href=\"https://www.kth.se/en/biblioteket/soka-vardera/boka-handledning-1.853064\">Book a tutorial</a></div>";
 												$mailmessage .= "</div>";
 											}
 										}
