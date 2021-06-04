@@ -471,7 +471,7 @@ if(!empty($_REQUEST['auth'])) {
 																"
 																<p>Du kan nu reservera och låna böcker samt beställa artikelkopior och fjärrlån genom KTH Biblioteket. Var vänlig ta med ditt ID eller bibliotekskort om du ska låna böcker på biblioteket. Bibliotekskort kvitterar du ut i informationsdisken mot uppvisande av legitimation.</p>
 																<div>Du kan söka bland vårt tryckta och elektroniska material i sökverktyget Primo eller i någon av våra databaser och söktjänster. Genom att logga in på ditt KTH.se-konto kan du nå elektroniska resurser även utanför campus.</div>
-																<div><a href=\"http://kth-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=46KTH_VU1&prefLang=sv_SE\">Sök material i Primo</a></div>
+																<div><a href=\"https://kth-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=46KTH_VU1&lang=sv_SE\">Sök material i Primo</a></div>
 																<div><a href=\"https://www.kth.se/kthb/sokverktyg/databaser-och-soktjanster-1.546373\">Våra databaser och söktjänster</a></div>
 																</br>
 																<div>KTH Biblioteket finns på tre platser, Huvudbiblioteket på KTH Campus samt i Kista och Södertälje.</div>
@@ -508,7 +508,7 @@ if(!empty($_REQUEST['auth'])) {
 																"
 																<p>You can now borrow or request books, article copies and interlibrary loans. Please bring your ID or library card if you want to borrow materials from the library. You can collect your library card at the information desk if you show your ID.</p>
 																<div>You can search our printed and electronic materials in Primo or in one of our databases or search tools. If you log in to your KTH account you can access our electronic resources outside of campus.</div>
-																<div><a href=\"http://kth-primo.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?vid=46KTH_VU1&prefLang=en_US\">Search in Primo</a></div>
+																<div><a href=\"https://kth-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=46KTH_VU1&lang=en_US\">Search in Primo</a></div>
 																<div><a href=\"https://www.kth.se/en/kthb/sokverktyg/databaser-och-soktjanster-1.546373\">Databases and search tools</a></div>
 																</br>
 																<div>KTH Library consists of three libraries, the Main library and the branch libraries in Kista and Södertälje.</div>
